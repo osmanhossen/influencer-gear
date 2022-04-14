@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+
+.container {
+    display: flex;
+}
+
+.first-blog,
+.first-blog-img {
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(202, 53, 221);
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: none;
+
+}
