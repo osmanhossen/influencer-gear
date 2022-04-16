@@ -1,5 +1,30 @@
-h1 {
-    color: red;
+/* google-font */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5%;
+}
+
+/* styles-navbar */
+.nav-bar {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav span a {
+    text-decoration: none;
+    margin: 20px;
+
 }
 
 .container {
@@ -14,10 +39,47 @@ h1 {
 }
 
 button {
-    background-color: rgb(202, 53, 221);
+    background-color: mediumorchid;
     color: aliceblue;
     padding: 8px;
-    border-radius: 10px;
+    padding-right: 50px;
+    border-radius: 20px;
     border-color: none;
 
 }
+
+/* banner and image section end */
+
+/* logo section start */
+
+.logo-sec {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.logo-sec svg {
+
+    margin-right: 100px;
+}
+
+/* Logo section end */
+
+/* popular collection start */
+
+.collection-title {
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+
+
+/* footer start */
+footer {
+    background-color: darkslateblue;
+    padding: 30px;
+}
+
+
+
+/* foooter end */
