@@ -29,6 +29,7 @@ header nav span a {
 
 .container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .first-blog,
@@ -68,10 +69,24 @@ button {
 
 /* popular collection start */
 
-.collection-title {
-    /* align-content: center; */
-    /* justify-content: center; */
+.collection-main {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: rgb(171, 170, 170);
+    margin: 10px;
 }
+
+
+
+.collection-blog {
+    border: 1px solid yellowgreen;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+
+
+
 
 
 /* footer start */
