@@ -58,17 +58,16 @@ header nav span a {
 
 button {
     border: none;
-}
-
-.button1>a {
-    text-decoration: none;
     background-color: mediumorchid;
-    color: white;
     padding: 8px;
     padding-right: 50px;
     border-radius: 20px;
     border-color: none;
+}
 
+.button1>a {
+    text-decoration: none;
+    color: white;
 }
 
 /* banner and image section end */
@@ -225,7 +224,7 @@ button {
     .container {
         width: 100%;
         margin: 10px;
-        /* justify-content: center; */
+        justify-content: center;
     }
 
     .nav-bar,
@@ -241,6 +240,7 @@ button {
     .logo-sec {
         display: flex;
         flex-wrap: wrap;
+        /* grid-template-columns: repeat(3, 1fr); */
     }
 
     .collection {
